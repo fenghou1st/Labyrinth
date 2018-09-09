@@ -4,7 +4,6 @@
 各种通用方法
 """
 
-import sys
 import os
 import pickle
 import numpy as np

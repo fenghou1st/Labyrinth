@@ -1,18 +1,20 @@
 # -*- coding: utf-8 -*-
 
 """
-迷宫养成游戏（原型）
+Launcher of the game.
 """
 
+import sys
 import argparse
 
-from common import *
+from game import Game
 
 FLAGS = None
 
 
 def main(argv):
-    pass
+    game = Game(FLAGS)
+    game.run()
 
 
 if __name__ == '__main__':
